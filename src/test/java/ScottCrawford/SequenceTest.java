@@ -7,32 +7,32 @@ public class SequenceTest {
 
     @Test
     public void testSequence0() {
-        assertEquals(SequenceTest.Tri(0), 0);
+        assertEquals(Sequence.Tri(0), 0);
     }
 
     @Test
     public void testSequence1() {
-        assertEquals(SequenceTest.Tri(1), 1);
+        assertEquals(Sequence.Tri(1), 1);
     }
 
     @Test
     public void testSequence5() {
-        assertEquals(SequenceTest.Tri(5), 15);
+        assertEquals(Sequence.Tri(5), 15);
     }
 
     @Test
     public void testSequence0() {
-        assertEquals(SequenceTest.Lazy(0), 0);
+        assertEquals(Sequence.Lazy(0), 0);
     }
 
     @Test
     public void testSequence1() {
-        assertEquals(SequenceTest.Lazy(1), 2);
+        assertEquals(Sequence.Lazy(1), 2);
     }
 
     @Test
     public void testSequence5() {
-        assertEquals(SequenceTest.Lazy(5), 16);
+        assertEquals(Sequence.Lazy(5), 16);
     }
-    
+
 }
