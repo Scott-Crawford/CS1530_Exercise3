@@ -22,7 +22,7 @@ public class SequenceTest {
 
     @Test
     public void testSequenceLazy0() {
-        assertEquals(Sequence.Lazy(0), 0);
+        assertEquals(Sequence.Lazy(0), 1);
     }
 
     @Test
